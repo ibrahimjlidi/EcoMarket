@@ -23,6 +23,30 @@ const products = [
       category: 'Accessories',
       countInStock: 150,
     },
+    {
+      name: 'Reusable Water Bottle',
+      description: 'A stainless steel reusable water bottle.',
+      price: 14.99,
+      image: 'https://via.placeholder.com/150',
+      category: 'Accessories',
+      countInStock: 150,
+    },
+    {
+      name: 'Reusable Water Bottle',
+      description: 'A stainless steel reusable water bottle.',
+      price: 14.99,
+      image: 'https://via.placeholder.com/150',
+      category: 'Accessories',
+      countInStock: 150,
+    },
+    {
+      name: 'Reusable Water Bottle',
+      description: 'A stainless steel reusable water bottle.',
+      price: 14.99,
+      image: 'https://via.placeholder.com/150',
+      category: 'Accessories',
+      countInStock: 150,
+    },
   ];
   
   module.exports = products;
