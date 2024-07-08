@@ -1,18 +1,18 @@
 import React from 'react';
+import { useCart } from '../context/CartContext';
 
 const CartPage = () => {
-  // Placeholder for cart items logic
-  const cartItems = [];
+  const { state } = useCart();
 
   return (
     <div>
       <h1>Shopping Cart</h1>
-      {cartItems.length === 0 ? (
+      {state.cartItems.length === 0 ? (
         <p>Your cart is empty</p>
       ) : (
         <ul>
-          {cartItems.map((item) => (
-            <li key={item.product}>
+          {state.cartItems.map(item => (
+            <li key={item.id}>
               {item.name} - ${item.price} x {item.qty}
             </li>
           ))}
